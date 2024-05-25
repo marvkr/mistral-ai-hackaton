@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63891A102C024D29008A3F38 /* Mistral_CallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A0F2C024D29008A3F38 /* Mistral_CallApp.swift */; };
+		63891A122C024D29008A3F38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A112C024D29008A3F38 /* ContentView.swift */; };
+		63891A142C024D2E008A3F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63891A132C024D2E008A3F38 /* Assets.xcassets */; };
+		63891A172C024D2E008A3F38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63891A162C024D2E008A3F38 /* Preview Assets.xcassets */; };
+		63891A212C024D2E008A3F38 /* Mistral_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A202C024D2E008A3F38 /* Mistral_CallTests.swift */; };
+		63891A2B2C024D2E008A3F38 /* Mistral_CallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A2A2C024D2E008A3F38 /* Mistral_CallUITests.swift */; };
+		63891A2D2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A2C2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63891A1D2C024D2E008A3F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63891A042C024D29008A3F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63891A0B2C024D29008A3F38;
+			remoteInfo = "Mistral Call";
+		};
+		63891A272C024D2E008A3F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63891A042C024D29008A3F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63891A0B2C024D29008A3F38;
+			remoteInfo = "Mistral Call";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63891A0C2C024D29008A3F38 /* Mistral Call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mistral Call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63891A0F2C024D29008A3F38 /* Mistral_CallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallApp.swift; sourceTree = "<group>"; };
+		63891A112C024D29008A3F38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63891A132C024D2E008A3F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63891A162C024D2E008A3F38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63891A1C2C024D2E008A3F38 /* Mistral CallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mistral CallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63891A202C024D2E008A3F38 /* Mistral_CallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallTests.swift; sourceTree = "<group>"; };
+		63891A262C024D2E008A3F38 /* Mistral CallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mistral CallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63891A2A2C024D2E008A3F38 /* Mistral_CallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallUITests.swift; sourceTree = "<group>"; };
+		63891A2C2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63891A092C024D29008A3F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63891A192C024D2E008A3F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63891A232C024D2E008A3F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63891A032C024D29008A3F38 = {
+			isa = PBXGroup;
+			children = (
+				63891A0E2C024D29008A3F38 /* Mistral Call */,
+				63891A1F2C024D2E008A3F38 /* Mistral CallTests */,
+				63891A292C024D2E008A3F38 /* Mistral CallUITests */,
+				63891A0D2C024D29008A3F38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63891A0D2C024D29008A3F38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63891A0C2C024D29008A3F38 /* Mistral Call.app */,
+				63891A1C2C024D2E008A3F38 /* Mistral CallTests.xctest */,
+				63891A262C024D2E008A3F38 /* Mistral CallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63891A0E2C024D29008A3F38 /* Mistral Call */ = {
+			isa = PBXGroup;
+			children = (
+				63891A0F2C024D29008A3F38 /* Mistral_CallApp.swift */,
+				63891A112C024D29008A3F38 /* ContentView.swift */,
+				63891A132C024D2E008A3F38 /* Assets.xcassets */,
+				63891A152C024D2E008A3F38 /* Preview Content */,
+			);
+			path = "Mistral Call";
+			sourceTree = "<group>";
+		};
+		63891A152C024D2E008A3F38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63891A162C024D2E008A3F38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63891A1F2C024D2E008A3F38 /* Mistral CallTests */ = {
+			isa = PBXGroup;
+			children = (
+				63891A202C024D2E008A3F38 /* Mistral_CallTests.swift */,
+			);
+			path = "Mistral CallTests";
+			sourceTree = "<group>";
+		};
+		63891A292C024D2E008A3F38 /* Mistral CallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63891A2A2C024D2E008A3F38 /* Mistral_CallUITests.swift */,
+				63891A2C2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift */,
+			);
+			path = "Mistral CallUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63891A0B2C024D29008A3F38 /* Mistral Call */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63891A302C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral Call" */;
+			buildPhases = (
+				63891A082C024D29008A3F38 /* Sources */,
+				63891A092C024D29008A3F38 /* Frameworks */,
+				63891A0A2C024D29008A3F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mistral Call";
+			productName = "Mistral Call";
+			productReference = 63891A0C2C024D29008A3F38 /* Mistral Call.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63891A1B2C024D2E008A3F38 /* Mistral CallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63891A332C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral CallTests" */;
+			buildPhases = (
+				63891A182C024D2E008A3F38 /* Sources */,
+				63891A192C024D2E008A3F38 /* Frameworks */,
+				63891A1A2C024D2E008A3F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63891A1E2C024D2E008A3F38 /* PBXTargetDependency */,
+			);
+			name = "Mistral CallTests";
+			productName = "Mistral CallTests";
+			productReference = 63891A1C2C024D2E008A3F38 /* Mistral CallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63891A252C024D2E008A3F38 /* Mistral CallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63891A362C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral CallUITests" */;
+			buildPhases = (
+				63891A222C024D2E008A3F38 /* Sources */,
+				63891A232C024D2E008A3F38 /* Frameworks */,
+				63891A242C024D2E008A3F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63891A282C024D2E008A3F38 /* PBXTargetDependency */,
+			);
+			name = "Mistral CallUITests";
+			productName = "Mistral CallUITests";
+			productReference = 63891A262C024D2E008A3F38 /* Mistral CallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63891A042C024D29008A3F38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					63891A0B2C024D29008A3F38 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					63891A1B2C024D2E008A3F38 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 63891A0B2C024D29008A3F38;
+					};
+					63891A252C024D2E008A3F38 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 63891A0B2C024D29008A3F38;
+					};
+				};
+			};
+			buildConfigurationList = 63891A072C024D29008A3F38 /* Build configuration list for PBXProject "Mistral Call" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63891A032C024D29008A3F38;
+			productRefGroup = 63891A0D2C024D29008A3F38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63891A0B2C024D29008A3F38 /* Mistral Call */,
+				63891A1B2C024D2E008A3F38 /* Mistral CallTests */,
+				63891A252C024D2E008A3F38 /* Mistral CallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63891A0A2C024D29008A3F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63891A172C024D2E008A3F38 /* Preview Assets.xcassets in Resources */,
+				63891A142C024D2E008A3F38 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63891A1A2C024D2E008A3F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63891A242C024D2E008A3F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63891A082C024D29008A3F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63891A122C024D29008A3F38 /* ContentView.swift in Sources */,
+				63891A102C024D29008A3F38 /* Mistral_CallApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63891A182C024D2E008A3F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63891A212C024D2E008A3F38 /* Mistral_CallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63891A222C024D2E008A3F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63891A2B2C024D2E008A3F38 /* Mistral_CallUITests.swift in Sources */,
+				63891A2D2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63891A1E2C024D2E008A3F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63891A0B2C024D29008A3F38 /* Mistral Call */;
+			targetProxy = 63891A1D2C024D2E008A3F38 /* PBXContainerItemProxy */;
+		};
+		63891A282C024D2E008A3F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63891A0B2C024D29008A3F38 /* Mistral Call */;
+			targetProxy = 63891A272C024D2E008A3F38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63891A2E2C024D2E008A3F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63891A2F2C024D2E008A3F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63891A312C024D2E008A3F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mistral Call/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mistrall-call-hackaton.Mistral-Call";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63891A322C024D2E008A3F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mistral Call/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mistrall-call-hackaton.Mistral-Call";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63891A342C024D2E008A3F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mistrall-call-hackaton.Mistral-CallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mistral Call.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mistral Call";
+			};
+			name = Debug;
+		};
+		63891A352C024D2E008A3F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mistrall-call-hackaton.Mistral-CallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mistral Call.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mistral Call";
+			};
+			name = Release;
+		};
+		63891A372C024D2E008A3F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mistrall-call-hackaton.Mistral-CallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mistral Call";
+			};
+			name = Debug;
+		};
+		63891A382C024D2E008A3F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mistrall-call-hackaton.Mistral-CallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mistral Call";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63891A072C024D29008A3F38 /* Build configuration list for PBXProject "Mistral Call" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63891A2E2C024D2E008A3F38 /* Debug */,
+				63891A2F2C024D2E008A3F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63891A302C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral Call" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63891A312C024D2E008A3F38 /* Debug */,
+				63891A322C024D2E008A3F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63891A332C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral CallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63891A342C024D2E008A3F38 /* Debug */,
+				63891A352C024D2E008A3F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63891A362C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral CallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63891A372C024D2E008A3F38 /* Debug */,
+				63891A382C024D2E008A3F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63891A042C024D29008A3F38 /* Project object */;
+}

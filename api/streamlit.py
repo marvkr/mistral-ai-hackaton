@@ -2,7 +2,7 @@
 import streamlit as st
 from audio_recorder_streamlit import audio_recorder
 from faster_whisper import WhisperModel  
-from groq_translation import groq_translate  
+from groq_chat import groq_infer  
 import os 
 from gtts import gTTS  
 
@@ -29,31 +29,18 @@ def text_to_speech(translated_text, language):
     my_obj.save(file_name) 
     return file_name 
 
-languages = {
-    "English": "en",
-   "Portuguese": "pt",
-   "Spanish": "es",
-   "German": "de",
-   "French": "fr",
-   "Italian": "it",
-   "Dutch": "nl",
-   "Russian": "ru",
-   "Japanese": "ja",
-   "Chinese": "zh",
-   "Korean": "ko"
-}
 
 # Language selection
-option = st.selectbox(
-   "Language to translate to:",
-   languages,
-   index=None,
-   placeholder="Select language...",
-)
+# option = st.selectbox(
+#    "Language to translate to:",
+#    languages,
+#    index=None,
+#    placeholder="Select language...",
+# )
 
 # Record audio
 audio_bytes = audio_recorder(auto_start=False)
-if audio_bytes and option:
+if audio_bytes:
     # Display audio player
     st.audio(audio_bytes, format="audio/wav")
 
@@ -71,7 +58,7 @@ if audio_bytes and option:
     # Groq translation
     st.divider() 
     with st.spinner('Translating...'): 
-        translation = groq_translate(text, 'en', option) 
+        translation = groq_infer(text, 'en') 
     st.subheader('Translated Text to ' + option) 
     st.write(translation.text) 
 

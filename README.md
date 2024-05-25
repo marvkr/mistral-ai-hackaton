@@ -2,4 +2,6 @@
 
 Run realtime conversation backend test:
 
-`streamlit run main`
+`cd api && pip install -r requirements.txt`
+
+`streamlit run streamlit.py`

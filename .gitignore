@@ -174,3 +174,6 @@ swiftlint.yml
 # Other Swift files
 *.swift.h
 *.modulemap
+
+#
+**/.env

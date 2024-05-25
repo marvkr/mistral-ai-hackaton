@@ -16,7 +16,7 @@ class Translation(BaseModel):
 
 
 # Translate text using the Groq API
-def groq_translate(query, from_language, to_language):
+def groq_infer(query):
     # Create a chat completion
     chat_completion = client.chat.completions.create(
         messages=[

@@ -7,63 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63891A102C024D29008A3F38 /* Mistral_CallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A0F2C024D29008A3F38 /* Mistral_CallApp.swift */; };
-		63891A122C024D29008A3F38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A112C024D29008A3F38 /* ContentView.swift */; };
-		63891A142C024D2E008A3F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63891A132C024D2E008A3F38 /* Assets.xcassets */; };
-		63891A172C024D2E008A3F38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63891A162C024D2E008A3F38 /* Preview Assets.xcassets */; };
-		63891A212C024D2E008A3F38 /* Mistral_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A202C024D2E008A3F38 /* Mistral_CallTests.swift */; };
-		63891A2B2C024D2E008A3F38 /* Mistral_CallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A2A2C024D2E008A3F38 /* Mistral_CallUITests.swift */; };
-		63891A2D2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A2C2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift */; };
-		63891A3A2C026950008A3F38 /* AIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A392C026950008A3F38 /* AIRequestManager.swift */; };
+		63FCFD752C0287EB0093FB96 /* Mistral_CallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCFD742C0287EB0093FB96 /* Mistral_CallApp.swift */; };
+		63FCFD772C0287EB0093FB96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCFD762C0287EB0093FB96 /* ContentView.swift */; };
+		63FCFD792C0287EE0093FB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63FCFD782C0287EE0093FB96 /* Assets.xcassets */; };
+		63FCFD7C2C0287EE0093FB96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63FCFD7B2C0287EE0093FB96 /* Preview Assets.xcassets */; };
+		63FCFD862C0287EF0093FB96 /* Mistral_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCFD852C0287EF0093FB96 /* Mistral_CallTests.swift */; };
+		63FCFD902C0287EF0093FB96 /* Mistral_CallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCFD8F2C0287EF0093FB96 /* Mistral_CallUITests.swift */; };
+		63FCFD922C0287EF0093FB96 /* Mistral_CallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCFD912C0287EF0093FB96 /* Mistral_CallUITestsLaunchTests.swift */; };
+		63FCFD9F2C0288470093FB96 /* AudioRecorderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCFD9E2C0288460093FB96 /* AudioRecorderManager.swift */; };
+		63FCFDA12C0288600093FB96 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCFDA02C0288600093FB96 /* MotionManager.swift */; };
+		63FCFDA32C0288790093FB96 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCFDA22C0288790093FB96 /* NetworkManager.swift */; };
+		63FCFDA52C0291100093FB96 /* RecordingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FCFDA42C0291100093FB96 /* RecordingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63891A1D2C024D2E008A3F38 /* PBXContainerItemProxy */ = {
+		63FCFD822C0287EF0093FB96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63891A042C024D29008A3F38 /* Project object */;
+			containerPortal = 63FCFD692C0287EB0093FB96 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63891A0B2C024D29008A3F38;
+			remoteGlobalIDString = 63FCFD702C0287EB0093FB96;
 			remoteInfo = "Mistral Call";
 		};
-		63891A272C024D2E008A3F38 /* PBXContainerItemProxy */ = {
+		63FCFD8C2C0287EF0093FB96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63891A042C024D29008A3F38 /* Project object */;
+			containerPortal = 63FCFD692C0287EB0093FB96 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63891A0B2C024D29008A3F38;
+			remoteGlobalIDString = 63FCFD702C0287EB0093FB96;
 			remoteInfo = "Mistral Call";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63891A0C2C024D29008A3F38 /* Mistral Call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mistral Call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63891A0F2C024D29008A3F38 /* Mistral_CallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallApp.swift; sourceTree = "<group>"; };
-		63891A112C024D29008A3F38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		63891A132C024D2E008A3F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63891A162C024D2E008A3F38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		63891A1C2C024D2E008A3F38 /* Mistral CallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mistral CallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63891A202C024D2E008A3F38 /* Mistral_CallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallTests.swift; sourceTree = "<group>"; };
-		63891A262C024D2E008A3F38 /* Mistral CallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mistral CallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63891A2A2C024D2E008A3F38 /* Mistral_CallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallUITests.swift; sourceTree = "<group>"; };
-		63891A2C2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		63891A392C026950008A3F38 /* AIRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIRequestManager.swift; sourceTree = "<group>"; };
+		63FCFD712C0287EB0093FB96 /* Mistral Call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mistral Call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FCFD742C0287EB0093FB96 /* Mistral_CallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallApp.swift; sourceTree = "<group>"; };
+		63FCFD762C0287EB0093FB96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63FCFD782C0287EE0093FB96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63FCFD7B2C0287EE0093FB96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63FCFD812C0287EF0093FB96 /* Mistral CallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mistral CallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FCFD852C0287EF0093FB96 /* Mistral_CallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallTests.swift; sourceTree = "<group>"; };
+		63FCFD8B2C0287EF0093FB96 /* Mistral CallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mistral CallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FCFD8F2C0287EF0093FB96 /* Mistral_CallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallUITests.swift; sourceTree = "<group>"; };
+		63FCFD912C0287EF0093FB96 /* Mistral_CallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63FCFD9E2C0288460093FB96 /* AudioRecorderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderManager.swift; sourceTree = "<group>"; };
+		63FCFDA02C0288600093FB96 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		63FCFDA22C0288790093FB96 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		63FCFDA42C0291100093FB96 /* RecordingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63891A092C024D29008A3F38 /* Frameworks */ = {
+		63FCFD6E2C0287EB0093FB96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63891A192C024D2E008A3F38 /* Frameworks */ = {
+		63FCFD7E2C0287EF0093FB96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63891A232C024D2E008A3F38 /* Frameworks */ = {
+		63FCFD882C0287EF0093FB96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,59 +79,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63891A032C024D29008A3F38 = {
+		63FCFD682C0287EB0093FB96 = {
 			isa = PBXGroup;
 			children = (
-				63891A0E2C024D29008A3F38 /* Mistral Call */,
-				63891A1F2C024D2E008A3F38 /* Mistral CallTests */,
-				63891A292C024D2E008A3F38 /* Mistral CallUITests */,
-				63891A0D2C024D29008A3F38 /* Products */,
+				63FCFD732C0287EB0093FB96 /* Mistral Call */,
+				63FCFD842C0287EF0093FB96 /* Mistral CallTests */,
+				63FCFD8E2C0287EF0093FB96 /* Mistral CallUITests */,
+				63FCFD722C0287EB0093FB96 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		63891A0D2C024D29008A3F38 /* Products */ = {
+		63FCFD722C0287EB0093FB96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63891A0C2C024D29008A3F38 /* Mistral Call.app */,
-				63891A1C2C024D2E008A3F38 /* Mistral CallTests.xctest */,
-				63891A262C024D2E008A3F38 /* Mistral CallUITests.xctest */,
+				63FCFD712C0287EB0093FB96 /* Mistral Call.app */,
+				63FCFD812C0287EF0093FB96 /* Mistral CallTests.xctest */,
+				63FCFD8B2C0287EF0093FB96 /* Mistral CallUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63891A0E2C024D29008A3F38 /* Mistral Call */ = {
+		63FCFD732C0287EB0093FB96 /* Mistral Call */ = {
 			isa = PBXGroup;
 			children = (
-				63891A0F2C024D29008A3F38 /* Mistral_CallApp.swift */,
-				63891A112C024D29008A3F38 /* ContentView.swift */,
-				63891A132C024D2E008A3F38 /* Assets.xcassets */,
-				63891A152C024D2E008A3F38 /* Preview Content */,
-				63891A392C026950008A3F38 /* AIRequestManager.swift */,
+				63FCFD742C0287EB0093FB96 /* Mistral_CallApp.swift */,
+				63FCFD762C0287EB0093FB96 /* ContentView.swift */,
+				63FCFD782C0287EE0093FB96 /* Assets.xcassets */,
+				63FCFD7A2C0287EE0093FB96 /* Preview Content */,
+				63FCFD9E2C0288460093FB96 /* AudioRecorderManager.swift */,
+				63FCFDA02C0288600093FB96 /* MotionManager.swift */,
+				63FCFDA22C0288790093FB96 /* NetworkManager.swift */,
+				63FCFDA42C0291100093FB96 /* RecordingViewModel.swift */,
 			);
 			path = "Mistral Call";
 			sourceTree = "<group>";
 		};
-		63891A152C024D2E008A3F38 /* Preview Content */ = {
+		63FCFD7A2C0287EE0093FB96 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				63891A162C024D2E008A3F38 /* Preview Assets.xcassets */,
+				63FCFD7B2C0287EE0093FB96 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		63891A1F2C024D2E008A3F38 /* Mistral CallTests */ = {
+		63FCFD842C0287EF0093FB96 /* Mistral CallTests */ = {
 			isa = PBXGroup;
 			children = (
-				63891A202C024D2E008A3F38 /* Mistral_CallTests.swift */,
+				63FCFD852C0287EF0093FB96 /* Mistral_CallTests.swift */,
 			);
 			path = "Mistral CallTests";
 			sourceTree = "<group>";
 		};
-		63891A292C024D2E008A3F38 /* Mistral CallUITests */ = {
+		63FCFD8E2C0287EF0093FB96 /* Mistral CallUITests */ = {
 			isa = PBXGroup;
 			children = (
-				63891A2A2C024D2E008A3F38 /* Mistral_CallUITests.swift */,
-				63891A2C2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift */,
+				63FCFD8F2C0287EF0093FB96 /* Mistral_CallUITests.swift */,
+				63FCFD912C0287EF0093FB96 /* Mistral_CallUITestsLaunchTests.swift */,
 			);
 			path = "Mistral CallUITests";
 			sourceTree = "<group>";
@@ -133,13 +142,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63891A0B2C024D29008A3F38 /* Mistral Call */ = {
+		63FCFD702C0287EB0093FB96 /* Mistral Call */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63891A302C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral Call" */;
+			buildConfigurationList = 63FCFD952C0287EF0093FB96 /* Build configuration list for PBXNativeTarget "Mistral Call" */;
 			buildPhases = (
-				63891A082C024D29008A3F38 /* Sources */,
-				63891A092C024D29008A3F38 /* Frameworks */,
-				63891A0A2C024D29008A3F38 /* Resources */,
+				63FCFD6D2C0287EB0093FB96 /* Sources */,
+				63FCFD6E2C0287EB0093FB96 /* Frameworks */,
+				63FCFD6F2C0287EB0093FB96 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,69 +156,69 @@
 			);
 			name = "Mistral Call";
 			productName = "Mistral Call";
-			productReference = 63891A0C2C024D29008A3F38 /* Mistral Call.app */;
+			productReference = 63FCFD712C0287EB0093FB96 /* Mistral Call.app */;
 			productType = "com.apple.product-type.application";
 		};
-		63891A1B2C024D2E008A3F38 /* Mistral CallTests */ = {
+		63FCFD802C0287EF0093FB96 /* Mistral CallTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63891A332C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral CallTests" */;
+			buildConfigurationList = 63FCFD982C0287EF0093FB96 /* Build configuration list for PBXNativeTarget "Mistral CallTests" */;
 			buildPhases = (
-				63891A182C024D2E008A3F38 /* Sources */,
-				63891A192C024D2E008A3F38 /* Frameworks */,
-				63891A1A2C024D2E008A3F38 /* Resources */,
+				63FCFD7D2C0287EF0093FB96 /* Sources */,
+				63FCFD7E2C0287EF0093FB96 /* Frameworks */,
+				63FCFD7F2C0287EF0093FB96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63891A1E2C024D2E008A3F38 /* PBXTargetDependency */,
+				63FCFD832C0287EF0093FB96 /* PBXTargetDependency */,
 			);
 			name = "Mistral CallTests";
 			productName = "Mistral CallTests";
-			productReference = 63891A1C2C024D2E008A3F38 /* Mistral CallTests.xctest */;
+			productReference = 63FCFD812C0287EF0093FB96 /* Mistral CallTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		63891A252C024D2E008A3F38 /* Mistral CallUITests */ = {
+		63FCFD8A2C0287EF0093FB96 /* Mistral CallUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63891A362C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral CallUITests" */;
+			buildConfigurationList = 63FCFD9B2C0287EF0093FB96 /* Build configuration list for PBXNativeTarget "Mistral CallUITests" */;
 			buildPhases = (
-				63891A222C024D2E008A3F38 /* Sources */,
-				63891A232C024D2E008A3F38 /* Frameworks */,
-				63891A242C024D2E008A3F38 /* Resources */,
+				63FCFD872C0287EF0093FB96 /* Sources */,
+				63FCFD882C0287EF0093FB96 /* Frameworks */,
+				63FCFD892C0287EF0093FB96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63891A282C024D2E008A3F38 /* PBXTargetDependency */,
+				63FCFD8D2C0287EF0093FB96 /* PBXTargetDependency */,
 			);
 			name = "Mistral CallUITests";
 			productName = "Mistral CallUITests";
-			productReference = 63891A262C024D2E008A3F38 /* Mistral CallUITests.xctest */;
+			productReference = 63FCFD8B2C0287EF0093FB96 /* Mistral CallUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63891A042C024D29008A3F38 /* Project object */ = {
+		63FCFD692C0287EB0093FB96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					63891A0B2C024D29008A3F38 = {
+					63FCFD702C0287EB0093FB96 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					63891A1B2C024D2E008A3F38 = {
+					63FCFD802C0287EF0093FB96 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 63891A0B2C024D29008A3F38;
+						TestTargetID = 63FCFD702C0287EB0093FB96;
 					};
-					63891A252C024D2E008A3F38 = {
+					63FCFD8A2C0287EF0093FB96 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 63891A0B2C024D29008A3F38;
+						TestTargetID = 63FCFD702C0287EB0093FB96;
 					};
 				};
 			};
-			buildConfigurationList = 63891A072C024D29008A3F38 /* Build configuration list for PBXProject "Mistral Call" */;
+			buildConfigurationList = 63FCFD6C2C0287EB0093FB96 /* Build configuration list for PBXProject "Mistral Call" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,36 +226,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 63891A032C024D29008A3F38;
-			productRefGroup = 63891A0D2C024D29008A3F38 /* Products */;
+			mainGroup = 63FCFD682C0287EB0093FB96;
+			productRefGroup = 63FCFD722C0287EB0093FB96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63891A0B2C024D29008A3F38 /* Mistral Call */,
-				63891A1B2C024D2E008A3F38 /* Mistral CallTests */,
-				63891A252C024D2E008A3F38 /* Mistral CallUITests */,
+				63FCFD702C0287EB0093FB96 /* Mistral Call */,
+				63FCFD802C0287EF0093FB96 /* Mistral CallTests */,
+				63FCFD8A2C0287EF0093FB96 /* Mistral CallUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63891A0A2C024D29008A3F38 /* Resources */ = {
+		63FCFD6F2C0287EB0093FB96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63891A172C024D2E008A3F38 /* Preview Assets.xcassets in Resources */,
-				63891A142C024D2E008A3F38 /* Assets.xcassets in Resources */,
+				63FCFD7C2C0287EE0093FB96 /* Preview Assets.xcassets in Resources */,
+				63FCFD792C0287EE0093FB96 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63891A1A2C024D2E008A3F38 /* Resources */ = {
+		63FCFD7F2C0287EF0093FB96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63891A242C024D2E008A3F38 /* Resources */ = {
+		63FCFD892C0287EF0093FB96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,50 +265,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63891A082C024D29008A3F38 /* Sources */ = {
+		63FCFD6D2C0287EB0093FB96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63891A122C024D29008A3F38 /* ContentView.swift in Sources */,
-				63891A102C024D29008A3F38 /* Mistral_CallApp.swift in Sources */,
-				63891A3A2C026950008A3F38 /* AIRequestManager.swift in Sources */,
+				63FCFD772C0287EB0093FB96 /* ContentView.swift in Sources */,
+				63FCFD9F2C0288470093FB96 /* AudioRecorderManager.swift in Sources */,
+				63FCFDA32C0288790093FB96 /* NetworkManager.swift in Sources */,
+				63FCFD752C0287EB0093FB96 /* Mistral_CallApp.swift in Sources */,
+				63FCFDA52C0291100093FB96 /* RecordingViewModel.swift in Sources */,
+				63FCFDA12C0288600093FB96 /* MotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63891A182C024D2E008A3F38 /* Sources */ = {
+		63FCFD7D2C0287EF0093FB96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63891A212C024D2E008A3F38 /* Mistral_CallTests.swift in Sources */,
+				63FCFD862C0287EF0093FB96 /* Mistral_CallTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63891A222C024D2E008A3F38 /* Sources */ = {
+		63FCFD872C0287EF0093FB96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63891A2B2C024D2E008A3F38 /* Mistral_CallUITests.swift in Sources */,
-				63891A2D2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift in Sources */,
+				63FCFD902C0287EF0093FB96 /* Mistral_CallUITests.swift in Sources */,
+				63FCFD922C0287EF0093FB96 /* Mistral_CallUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		63891A1E2C024D2E008A3F38 /* PBXTargetDependency */ = {
+		63FCFD832C0287EF0093FB96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63891A0B2C024D29008A3F38 /* Mistral Call */;
-			targetProxy = 63891A1D2C024D2E008A3F38 /* PBXContainerItemProxy */;
+			target = 63FCFD702C0287EB0093FB96 /* Mistral Call */;
+			targetProxy = 63FCFD822C0287EF0093FB96 /* PBXContainerItemProxy */;
 		};
-		63891A282C024D2E008A3F38 /* PBXTargetDependency */ = {
+		63FCFD8D2C0287EF0093FB96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63891A0B2C024D29008A3F38 /* Mistral Call */;
-			targetProxy = 63891A272C024D2E008A3F38 /* PBXContainerItemProxy */;
+			target = 63FCFD702C0287EB0093FB96 /* Mistral Call */;
+			targetProxy = 63FCFD8C2C0287EF0093FB96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		63891A2E2C024D2E008A3F38 /* Debug */ = {
+		63FCFD932C0287EF0093FB96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -362,7 +374,7 @@
 			};
 			name = Debug;
 		};
-		63891A2F2C024D2E008A3F38 /* Release */ = {
+		63FCFD942C0287EF0093FB96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,7 +430,7 @@
 			};
 			name = Release;
 		};
-		63891A312C024D2E008A3F38 /* Debug */ = {
+		63FCFD962C0287EF0093FB96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -446,7 +458,7 @@
 			};
 			name = Debug;
 		};
-		63891A322C024D2E008A3F38 /* Release */ = {
+		63FCFD972C0287EF0093FB96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -474,7 +486,7 @@
 			};
 			name = Release;
 		};
-		63891A342C024D2E008A3F38 /* Debug */ = {
+		63FCFD992C0287EF0093FB96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -493,7 +505,7 @@
 			};
 			name = Debug;
 		};
-		63891A352C024D2E008A3F38 /* Release */ = {
+		63FCFD9A2C0287EF0093FB96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,7 +524,7 @@
 			};
 			name = Release;
 		};
-		63891A372C024D2E008A3F38 /* Debug */ = {
+		63FCFD9C2C0287EF0093FB96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,7 +541,7 @@
 			};
 			name = Debug;
 		};
-		63891A382C024D2E008A3F38 /* Release */ = {
+		63FCFD9D2C0287EF0093FB96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -549,43 +561,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63891A072C024D29008A3F38 /* Build configuration list for PBXProject "Mistral Call" */ = {
+		63FCFD6C2C0287EB0093FB96 /* Build configuration list for PBXProject "Mistral Call" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63891A2E2C024D2E008A3F38 /* Debug */,
-				63891A2F2C024D2E008A3F38 /* Release */,
+				63FCFD932C0287EF0093FB96 /* Debug */,
+				63FCFD942C0287EF0093FB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63891A302C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral Call" */ = {
+		63FCFD952C0287EF0093FB96 /* Build configuration list for PBXNativeTarget "Mistral Call" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63891A312C024D2E008A3F38 /* Debug */,
-				63891A322C024D2E008A3F38 /* Release */,
+				63FCFD962C0287EF0093FB96 /* Debug */,
+				63FCFD972C0287EF0093FB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63891A332C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral CallTests" */ = {
+		63FCFD982C0287EF0093FB96 /* Build configuration list for PBXNativeTarget "Mistral CallTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63891A342C024D2E008A3F38 /* Debug */,
-				63891A352C024D2E008A3F38 /* Release */,
+				63FCFD992C0287EF0093FB96 /* Debug */,
+				63FCFD9A2C0287EF0093FB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63891A362C024D2E008A3F38 /* Build configuration list for PBXNativeTarget "Mistral CallUITests" */ = {
+		63FCFD9B2C0287EF0093FB96 /* Build configuration list for PBXNativeTarget "Mistral CallUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63891A372C024D2E008A3F38 /* Debug */,
-				63891A382C024D2E008A3F38 /* Release */,
+				63FCFD9C2C0287EF0093FB96 /* Debug */,
+				63FCFD9D2C0287EF0093FB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 63891A042C024D29008A3F38 /* Project object */;
+	rootObject = 63FCFD692C0287EB0093FB96 /* Project object */;
 }

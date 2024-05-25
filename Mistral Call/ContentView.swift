@@ -1,88 +1,125 @@
 import SwiftUI
 
-struct ContentView: View {
-    private var audioRecorderManager = AudioRecorderManager()
-    private var motionManager = MotionManager()
 
-    @State private var isRecording = false
-    @State private var lastStatusMessage = ""
+
+struct ContentView: View {
+
+    @StateObject private var viewModel = RecordingViewModel()
+
+    
 
     private let buttons = [
+
         ("Family Recap", "Get the latest updates from your loved ones.", Color.blue),
+
         ("Call Family", "Call a family member to catch up.", Color.green),
+
         ("Daily Learning", "Start a new brain exercise or learn something new.", Color.orange),
+
         ("My Reminders", "Check today's reminders and tasks.", Color.purple)
+
     ]
 
-    init() {
-        motionManager.onDeviceLifted = { [weak self] in
-            self?.lastStatusMessage = "Device lifted!"
-            self?.startRecording()
-        }
-    }
+
 
     var body: some View {
+
         VStack {
-            if !isRecording {
+
+            if !viewModel.isRecording {
+
                 Text("Hello Bernadette!")
+
                     .padding()
+
                     .transition(.opacity)
-                    .animation(.easeIn(duration: 0.5), value: isRecording)
+
+                    .animation(.easeIn(duration: 0.5), value: viewModel.isRecording)
+
+
 
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
+
                     ForEach(buttons, id: \.0) { button in
+
                         Button(action: {
-                            // Define button actions here
+
+                            // Placeholder for button actions.
+
+                            print("\(button.0) tapped")
+
                         }) {
+
                             VStack {
-                                Text(button.0) // Label
+
+                                Text(button.0) // Button label
+
                                     .foregroundColor(.white)
+
                                     .font(.headline)
-                                Text(button.1) // Subtext
+
+                                Text(button.1) // Button subtext
+
                                     .foregroundColor(.white)
+
                                     .font(.subheadline)
+
                             }
+
                             .padding()
+
                             .frame(maxWidth: .infinity)
-                            .background(button.2) // Background color
+
+                            .background(button.2)
+
                             .cornerRadius(10)
+
                         }
+
                         .transition(.opacity)
-                        .animation(.easeIn(duration: 0.5), value: isRecording)
+
+                        .animation(.easeIn(duration: 0.5), value: viewModel.isRecording)
+
                     }
+
                 }
+
                 .padding()
+
             } else {
+
                 VStack {
+
                     Text("Recording...")
+
                         .foregroundColor(.red)
+
                         .padding()
-                    // Add any other recording UI elements here
+
+                    Text(viewModel.lastStatusMessage)
+
                 }
+
                 .transition(.opacity)
-                .animation(.easeIn(duration: 0.5), value: isRecording)
+
+                .animation(.easeIn(duration: 0.5), value: viewModel.isRecording)
+
             }
+
         }
+
     }
 
-    func startRecording() {
-        withAnimation {
-            isRecording = true
-        }
-        audioRecorderManager.startRecording()
-        audioRecorderManager.onRecordingFinished = { [weak self] url in
-            withAnimation {
-                self?.isRecording = false
-            }
-            // Handle the recording URL if needed
-        }
+}
+
+
+
+struct ContentView_Previews: PreviewProvider {
+
+    static var previews: some View {
+
+        ContentView()
+
     }
 
-    func stopRecording() {
-        withAnimation {
-            isRecording = false
-        }
-        lastStatusMessage = "Stopping recording..."
-        audioRecorderManager.stopRecording()
-    }
 }

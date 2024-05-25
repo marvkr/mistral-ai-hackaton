@@ -1,7 +1,7 @@
 import AVFoundation
 
 class AudioRecorderManager: NSObject, AVAudioRecorderDelegate {
-    var audioRecorder: AVClipording?
+    var audioRecorder: AVAudioRecorder?
     var onRecordingFinished: ((URL?) -> Void)?
 
     func startRecording() {

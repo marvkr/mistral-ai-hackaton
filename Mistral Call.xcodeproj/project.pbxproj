@@ -14,6 +14,7 @@
 		63891A212C024D2E008A3F38 /* Mistral_CallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A202C024D2E008A3F38 /* Mistral_CallTests.swift */; };
 		63891A2B2C024D2E008A3F38 /* Mistral_CallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A2A2C024D2E008A3F38 /* Mistral_CallUITests.swift */; };
 		63891A2D2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A2C2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift */; };
+		63891A3A2C026950008A3F38 /* AIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63891A392C026950008A3F38 /* AIRequestManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		63891A262C024D2E008A3F38 /* Mistral CallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mistral CallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63891A2A2C024D2E008A3F38 /* Mistral_CallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallUITests.swift; sourceTree = "<group>"; };
 		63891A2C2C024D2E008A3F38 /* Mistral_CallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistral_CallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63891A392C026950008A3F38 /* AIRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIRequestManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				63891A112C024D29008A3F38 /* ContentView.swift */,
 				63891A132C024D2E008A3F38 /* Assets.xcassets */,
 				63891A152C024D2E008A3F38 /* Preview Content */,
+				63891A392C026950008A3F38 /* AIRequestManager.swift */,
 			);
 			path = "Mistral Call";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				63891A122C024D29008A3F38 /* ContentView.swift in Sources */,
 				63891A102C024D29008A3F38 /* Mistral_CallApp.swift in Sources */,
+				63891A3A2C026950008A3F38 /* AIRequestManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

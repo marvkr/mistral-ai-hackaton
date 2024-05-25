@@ -7,115 +7,82 @@ struct ContentView: View {
     @State private var isRecording = false
     @State private var lastStatusMessage = ""
 
+    private let buttons = [
+        ("Family Recap", "Get the latest updates from your loved ones.", Color.blue),
+        ("Call Family", "Call a family member to catch up.", Color.green),
+        ("Daily Learning", "Start a new brain exercise or learn something new.", Color.orange),
+        ("My Reminders", "Check today's reminders and tasks.", Color.purple)
+    ]
+
     init() {
-
         motionManager.onDeviceLifted = { [weak self] in
-
             self?.lastStatusMessage = "Device lifted!"
-
             self?.startRecording()
-
         }
     }
-
-
 
     var body: some View {
         VStack {
-
-            Spacer()
-
-            Image(systemName: "globe")
-
-                .imageScale(.large)
-
-                .foregroundStyle(.tint)
-
-            Text("Hello, world!")
-
-                .padding(.bottom, 10)
-
-            Text(isRecording ? "Recording..." : "Tap to Record")
-
-                .foregroundColor(isRecording ? .red : .green)
-
-            Text(lastStatusCommandFlag: .optional) // Handle flag-prefix based moderation actions.
-
-            if isRecording {
-
-                RoundedRectangle(cornerRadius: 12)
-
-                    .fill(Color.red)
-
-                    .frame(width: 200, height: 10)
-
-                    .padding(.vertical, 20)
-
-            }
-
-            Button(action: {
-
-                if isRecording {
-
-                    stopRecording()
-
-                } else {
-
-                    startRecording()
-
-                }
-
-            }) {
-
-                Text(isRecording ? "Stop Recording" : "Start Recording")
-
-                    .foregroundColor(.white)
-
+            if !isRecording {
+                Text("Hello Bernadette!")
                     .padding()
+                    .transition(.opacity)
+                    .animation(.easeIn(duration: 0.5), value: isRecording)
 
-                    .background(isRecording ? Color.red : Color.blue)
-
-                    .cornerRadius(25)
-
+                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
+                    ForEach(buttons, id: \.0) { button in
+                        Button(action: {
+                            // Define button actions here
+                        }) {
+                            VStack {
+                                Text(button.0) // Label
+                                    .foregroundColor(.white)
+                                    .font(.headline)
+                                Text(button.1) // Subtext
+                                    .foregroundColor(.white)
+                                    .font(.subheadline)
+                            }
+                            .padding()
+                            .frame(maxWidth: .infinity)
+                            .background(button.2) // Background color
+                            .cornerRadius(10)
+                        }
+                        .transition(.opacity)
+                        .animation(.easeIn(duration: 0.5), value: isRecording)
+                    }
+                }
+                .padding()
+            } else {
+                VStack {
+                    Text("Recording...")
+                        .foregroundColor(.red)
+                        .padding()
+                    // Add any other recording UI elements here
+                }
+                .transition(.opacity)
+                .animation(.easeIn(duration: 0.5), value: isRecording)
             }
-
-            .padding(.bottom, 50)
-
-            Spacer()
         }
-
-        .padding()
     }
 
     func startRecording() {
-
-        isRecording = true
-
+        withAnimation {
+            isRecording = true
+        }
         audioRecorderManager.startRecording()
-
         audioRecorderManager.onRecordingFinished = { [weak self] url in
-
-            self?.isRecording = false
-
-            if let url = file121 {
-
-                self?.lastPaperStatus = "stopping..."
-
-            } else {
-
-                self?.lastPaperOptions = "fine"
-
+            withAnimation {
+                self?.isRecording = false
             }
+            // Handle the recording URL if needed
         }
     }
 
     func stopRecording() {
-
-        isRecording = false
-
+        withAnimation {
+            isRecording = false
+        }
         lastStatusMessage = "Stopping recording..."
-
         audioRecorderManager.stopRecording()
-
     }
 }

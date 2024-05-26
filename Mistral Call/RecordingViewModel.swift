@@ -38,25 +38,18 @@ class RecordingViewModel: ObservableObject {
 
         audioRecorderManager.startRecording()
 
-        audioRecorderManager.onRecordingFinished = { [weak self] url in
-
-            DispatchQueue.main.async {
-
-                self?.isRecording = false
-
-                if let url = url {
-
-                    self?.lastStatusMessage = "Recording finished, file is at: \(url)"
-
-                } else {
-
-                    self?.lastStatusMessage = "Recording failed or was cancelled."
-
-                }
-
-            }
-
+        audioRecorderManager.onRecordingFinished = { [weak self] url, error in
+    DispatchQueue.main.async {
+        self?.isRecording = false
+        if let error = error {
+            self?.lastStatusMessage = "Recording failed with error: \(error.localizedDescription)"
+        } else if let url = url {
+            self?.lastStatusMessage = "Recording finished, file is at: \(url)"
+        } else {
+            self?.lastStatusMessage = "Recording failed or was cancelled."
         }
+    }
+}
 
     }
 

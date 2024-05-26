@@ -31,15 +31,30 @@ class AudioRecorderManager: NSObject, AVAudioRecorderDelegate {
         setupRecordingSession()
     }
 
-    private func setupRecordingSession() {
+ private func setupRecordingSession() {
     do {
+        #if os(iOS)
         try recordingSession.setCategory(.playAndRecord, options: [.defaultToSpeaker])
+        #else
+        try recordingSession.setCategory(.playAndRecord, mode: .default)
+        #endif
         try recordingSession.setActive(true)
 
-        recordingSession.requestRecordPermission { [unowned self] allowed in
-            DispatchQueue.main.async {
-                if !allowed {
-                    self.state = .error("Recording permission not granted by the user.")
+        if #available(iOS 17.0, *) {
+            AVAudioApplication.sharedInstance().requestRecordPermissionWithCompletionHandler { [unowned self] allowed in
+                DispatchQueue.main.async {
+                    if !allowed {
+                        self.state = .error("Recording permission not granted by the user.")
+                    }
+                }
+            }
+        } else {
+            // Fallback on earlier versions
+            recordingSession.requestRecordPermission { [unowned self] allowed in
+                DispatchQueue.main.async {
+                    if !allowed {
+                        self.state = .error("Recording permission not granted by the user.")
+                    }
                 }
             }
         }

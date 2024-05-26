@@ -32,22 +32,21 @@ class AudioRecorderManager: NSObject, AVAudioRecorderDelegate {
     }
 
     private func setupRecordingSession() {
-        do {
-            #if os(iOS)
-            try recordingSession.setCategory(.playAndRecord, options: [.defaultToSpeaker])
-            #else
-            try recordingSession.setCategory(.playAndRecord, mode: .default)
-            #endif
-            try recordingSession.setActive(true)
-            recordingSession.requestRecordPermission { [unowned self] allowed in
+    do {
+        try recordingSession.setCategory(.playAndRecord, options: [.defaultToSpeaker])
+        try recordingSession.setActive(true)
+
+        recordingSession.requestRecordPermission { [unowned self] allowed in
+            DispatchQueue.main.async {
                 if !allowed {
                     self.state = .error("Recording permission not granted by the user.")
                 }
             }
-        } catch {
-            self.state = .error("Failed to set up recording session: \(error.localizedDescription)")
         }
+    } catch {
+        self.state = .error("Failed to set up recording session: \(error.localizedDescription)")
     }
+}
 
     func startRecording() {
         guard case .recording = state else {

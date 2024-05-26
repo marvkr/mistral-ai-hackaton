@@ -10,7 +10,7 @@ class RecordingViewModel: ObservableObject {
 
     init() {
 
-        motionManager.onDeviceLifted = { [weak self] in
+        motionManager.onDeviceBroughtToEar = { [weak self] in
 
             DispatchQueue.main.async {
 
